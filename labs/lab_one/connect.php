@@ -1,7 +1,7 @@
 <?php 
 
 //Step 4
-declare(strict_types=1);
+
 
 // Database connection variables
 $host = "localhost"; 

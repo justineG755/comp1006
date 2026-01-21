@@ -3,7 +3,7 @@ require "header.php";
 
 //Step 2
 //include car.php and connect.php
-require_once "car.php";
+require "car.php";
 require_once "connect.php";
 
 //Step 3
