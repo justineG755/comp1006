@@ -7,28 +7,10 @@
     How can we refactor this code so it’s easier to maintain?
 */
 
-$items = ["Home", "About", "Contact"];
+require "header.php"; 
+require "navigation.php";
+require "footer.php"; 
 
-?>
+//One thing I learned that i could use towards the course project assignment is how to keep my pages more manageable with less repetitive code
+//as well as seperate the html and php which could come in handy for making the page
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My PHP Page</title>
-</head>
-<body>
-
-<h1>Welcome</h1>
-
-<ul>
-<?php foreach ($items as $item): ?>
-    <li><?= $item ?></li>
-<?php endforeach; ?>
-</ul>
-
-<footer>
-    <p>&copy; 2026</p>
-</footer>
-
-</body>
-</html>
